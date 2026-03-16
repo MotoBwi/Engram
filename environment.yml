@@ -1,0 +1,17 @@
+name: base
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - torch
+    - numpy
+    - transformers
+    - tokenizers
+    - sympy
+    - flake8
+    - pytest
+    - hf-xet

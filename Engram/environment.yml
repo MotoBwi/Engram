@@ -1,0 +1,14 @@
+name: engram
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - flake8
+  - numpy
+  - sympy
+  - pip:
+    - torch
+    - transformers
+    - tokenizers
+    - pytest
